@@ -4,7 +4,7 @@ try:
     from .tconfig import Config
 except ImportError:
     class Config:
-        DATABASE_URL =mongodb+srv://sumitsajwan135:<db_password>@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 [str, ""]
+        DATABASE_URL =mongodb+srv://sumitsajwan135:<gameno01>@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 [str, ""]
         API_HASH =ccbc3f662735abfa604ef6309ba76e67 [str, "abcdedf......"]
         API_ID =22403100 [int, 1234567]
         BOT_TOKEN =7893557735:AAGCyD-fn7wquISaOKYuAuxZdgFEu1HIhmY [str, "bot:token here"]
