@@ -4,10 +4,10 @@ try:
     from .tconfig import Config
 except ImportError:
     class Config:
-        DATABASE_URL =mongodb+srv://sumitsajwan135:<gameno01>@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 [str, ""]
-        API_HASH =ccbc3f662735abfa604ef6309ba76e67 [str, "abcdedf......"]
+        DATABASE_URL = "mongodb+srv://sumitsajwan135:<gameno01>@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" [str, ""]
+        API_HASH = "ccbc3f662735abfa604ef6309ba76e67" [str, "abcdedf......"]
         API_ID =22403100 [int, 1234567]
-        BOT_TOKEN =7893557735:AAGCyD-fn7wquISaOKYuAuxZdgFEu1HIhmY [str, "bot:token here"]
+        BOT_TOKEN = "7893557735:AAGCyD-fn7wquISaOKYuAuxZdgFEu1HIhmY" [str, "bot:token here"]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
         MAX_QUEUE_SIZE = [int, 5]
@@ -20,7 +20,7 @@ except ImportError:
         OWNER_ID =6894836133 [int, 0]
 
         # Public username url or invite link of private chat
-        FORCEJOIN =https://t.me/Anime_Piras [str,""]
+        FORCEJOIN = "https://t.me/Anime_Piras" [str,""]
         FORCEJOIN_ID =-1002138894327 [int,-100123465978]
 
         TRACE_CHANNEL = [int, 0]
